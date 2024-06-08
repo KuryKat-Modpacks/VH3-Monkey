@@ -38,7 +38,7 @@
 	#The second line of text under the app name
 	state = "Menu Principal"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["undefined", "logo"]
+	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "%version%"
 	#The Asset ID/URL of the image to display as the small image
@@ -56,13 +56,13 @@
 	#The second line of text under the app name
 	state = "Menu Multiplayer"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["undefined", "logo"]
+	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "%version%"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = []
+	smallImageKey = ["%playerhead%"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%modcount%"
+	smallImageText = "%player%"
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -70,17 +70,17 @@
 	#Enable/Disable the Realms Screen Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is looking for a Realm"
+	description = "Procurando por um Realm"
 	#The second line of text under the app name
-	state = "Browsing Realms"
+	state = "Menu de Realms"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "%version%"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = ["%playerhead%"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%modcount%"
+	smallImageText = "%player%"
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -88,15 +88,15 @@
 	#Enable/Disable the Join Game Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is joining a game"
+	description = ""
 	#The second line of text under the app name
-	state = "Joining Game"
+	state = "Entrando no jogo"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "%version%"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = ["loading"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%modcount%"
 	#The buttons to display on Discord 
@@ -110,11 +110,11 @@
 	#The second line of text under the app name
 	state = "Playing lonely mode"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = []
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "%version%"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%modcount%"
 	#The buttons to display on Discord 

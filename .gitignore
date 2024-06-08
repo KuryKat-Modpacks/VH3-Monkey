@@ -101,6 +101,7 @@ usercache.json
 usernamecache.json
 whitelist.json
 XaeroWaypoints/
+XaeroWaypoints*/
 XaeroWorldMap/
 rhino.local.properties
 
@@ -124,3 +125,5 @@ emi.json
 !/config/inventoryprofiles.json
 /config/inventoryprofilesnext/
 /dragon-survival/
+fancymenu_data/
+lightspeed-cache/
