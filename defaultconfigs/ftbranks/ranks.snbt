@@ -1,0 +1,76 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+		ftbranks.name_format: "&r&7[&r&8Humano&r&7] &r{name}:"
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 25
+		ftbessentials.back.max: 1
+		ftbessentials.back.cooldown: 600
+		ftbessentials.back.warmup: 3
+		ftbessentials.home.max: 1
+		ftbessentials.home.cooldown: 300
+		ftbessentials.home.warmup: 3
+		ftbessentials.spawn.cooldown: 300
+		ftbessentials.spawn.warmup: 3
+		ftbessentials.warp.cooldown: 60
+		ftbessentials.warp.warmup: 5
+		ftbessentials.tpa.cooldown: 25
+		ftbessentials.tpa.warmup: 3
+		ftbessentials.rtp.cooldown: 1200
+		ftbessentials.rtp.warmup: 10
+	}
+	suicidal: {
+		name: "Suicidal"
+		power: 100
+		condition: {
+			type: "stat"
+			stat: "deaths"
+			value: 100
+			value_check: "greater_or_equal"
+		}
+		ftbranks.name_format: "&r&7[&r&4&lSuicida&r&7] &r{name}:"
+	}
+	immortal: {
+		name: "Immortal"
+		power: 100
+		condition: {
+			type: "stat"
+			stat: "time_since_death"
+			value: 144000
+			value_check: "greater_or_equal"
+		}
+		ftbranks.name_format: "&r&7[&r&6&lImortal&r&7] &r{name}:"
+	}
+	addicted: {
+		name: "Addicted"
+		power: 500
+		condition: {
+			type: "playtime"
+			time: 4
+			time_unit: "weeks"
+		}
+		ftbranks.name_format: "&r&7[&r&d&lViciado&r&7] &r{name}:"
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "&r&7[&r&c&lAdmin&r&7] &r{name}:"
+		ftbessentials.back.max: 999
+		ftbessentials.back.cooldown: 0
+		ftbessentials.back.warmup: 0
+		ftbessentials.home.max: 100
+		ftbessentials.home.cooldown: 0
+		ftbessentials.home.warmup: 0
+		ftbessentials.spawn.cooldown: 0
+		ftbessentials.spawn.warmup: 0
+		ftbessentials.warp.cooldown: 0
+		ftbessentials.warp.warmup: 0
+		ftbessentials.tpa.cooldown: 0
+		ftbessentials.tpa.warmup: 0
+		ftbessentials.rtp.cooldown: 0
+		ftbessentials.rtp.warmup: 0
+	}
+}
