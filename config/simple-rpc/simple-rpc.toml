@@ -22,11 +22,11 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "%version%"
+	largeImageText = "%version% com %modcount%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["loading"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%modcount%"
+	smallImageText = "Carregando..."
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -40,7 +40,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "%version%"
+	largeImageText = "%version% com %modcount%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["%playerhead%"]
 	#The text that gets displayed when the small image is hovered
@@ -58,7 +58,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "%version%"
+	largeImageText = "%version% com %modcount%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["%playerhead%"]
 	#The text that gets displayed when the small image is hovered
@@ -76,7 +76,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "%version%"
+	largeImageText = "%version% com %modcount%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["%playerhead%"]
 	#The text that gets displayed when the small image is hovered
@@ -94,11 +94,11 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "%version%"
+	largeImageText = "%version% com %modcount%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["loading"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%modcount%"
+	smallImageText = "Carregando..."
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -106,17 +106,17 @@
 	#Enable/Disable the Single Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Currently In %world%"
+	description = "%savename% | Explorando %biome% no %world%"
 	#The second line of text under the app name
-	state = "Playing lonely mode"
+	state = "Singleplayer"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = []
+	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "%version%"
+	largeImageText = "%version% com %modcount%"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = []
+	smallImageKey = ["%playerhead%"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%modcount%"
+	smallImageText = "%player%"
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -124,17 +124,17 @@
 	#Enable/Disable the Multi Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Playing on %servername% with %players% players"
+	description = "%servername% | Explorando %biome% no %world%"
 	#The second line of text under the app name
-	state = "Playing online"
+	state = "Multiplayer com %players%/%maxplayers% jogadores"
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["%servericon%"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "%version%"
+	largeImageText = "%motd%"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["logo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%modcount%"
+	smallImageText = "%version% com %modcount%"
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -142,17 +142,17 @@
 	#Enable/Disable the Realms Game Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Playing on %realmname%"
+	description = "%realmname% | Explorando %biome% no %world%"
 	#The second line of text under the app name
-	state = "Playing on a Realm"
+	state = "Realms com %players%/%maxplayers% jogadores"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["logo"]
+	largeImageKey = ["%realmicon%"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "%version%"
+	largeImageText = "%realmdescription%"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["%playerhead%"]
+	smallImageKey = ["logo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%realmdescription%"
+	smallImageText = "%version% com %modcount%"
 	#The buttons to display on Discord 
 	buttons = []
 
@@ -164,11 +164,11 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["logo"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "%version%"
+	largeImageText = "%version% com %modcount%"
 	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = []
+	smallImageKey = ["%playerhead%"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = ""
+	smallImageText = "%player%"
 	#The buttons to display on Discord 
 	buttons = []
 
