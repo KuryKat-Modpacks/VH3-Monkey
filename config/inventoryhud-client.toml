@@ -27,16 +27,16 @@
 	#Show/Hide armor
 	showArmor = true
 	#Show/Hide armor
-	showMain = false
+	showMain = true
 	#Show/Hide armor
-	showOff = false
+	showOff = true
 	#Show/Hide armor
 	showArrows = false
 	#Show/Hide armor
 	showInv = false
 	#Armor HUD durability view (PERCENTAGE, DAMAGE, DAMAGE LEFT)
 	#Allowed Values: PERCENTAGE, DAMAGE, DAMAGE_LEFT, OFF
-	armView = "PERCENTAGE"
+	armView = "DAMAGE_LEFT"
 	#Show item durability bar
 	armBars = false
 	#Move all items at once or each one
@@ -47,7 +47,7 @@
 	showCount = false
 	#ArmorHUD scale in persentage from 50 to 150
 	#Range: 50 ~ 150
-	armScale = 50
+	armScale = 75
 	#Show Armor HUD when debug menu is open
 	armWithDebug = true
 	#Show arrows count when no weapon in your hands
@@ -98,25 +98,25 @@
 	armValign = "BOTTOM"
 	#Armor HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	armHalign = "RIGHT"
+	armHalign = "MIDDLE"
 	#Armor HUD position (X)
 	#Range: -9999 ~ 9999
-	xArmPos = 174
+	xArmPos = 0
 	#Armor HUD position (Y)
 	#Range: -9999 ~ 9999
-	yArmPos = 36
+	yArmPos = 70
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	potValign = "TOP"
+	potValign = "CENTER"
 	#Potion HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	potHalign = "RIGHT"
+	potHalign = "LEFT"
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 24
+	xPotionPos = 2
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 3
+	yPotionPos = 46
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103
