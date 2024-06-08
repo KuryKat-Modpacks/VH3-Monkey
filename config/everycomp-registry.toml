@@ -44,6 +44,10 @@
 	[wood_type.the_vault]
 		chromatic = true
 		driftwood = true
+		tenos = true
+		velara = true
+		wooden = true
+		overgrown_wooden = true
 
 [leaves_type]
 
@@ -74,4 +78,7 @@
 		pink_blossom = true
 		yellow_blossom = true
 		red_blossom = true
+
+	[leaves_type.the_vault]
+		velara = true
 
